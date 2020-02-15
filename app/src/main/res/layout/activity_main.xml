@@ -5,22 +5,27 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="#8C6ED6"
     android:padding="8dp"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/username"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:id="@+id/etusername"
         android:hint="Username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/etpassword"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
         android:hint="Password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/login"
         android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         firebaseAuth = firebaseAuth.getInstance();
-        etUsername=findViewById(R.id.etusename);
+        etUsername=findViewById(R.id.etusername);
         etpassword=findViewById(R.id.etpassword);
         btnsignup=findViewById(R.id.btnSignup);
         btnsignup.setOnClickListener(new View.OnClickListener() {
