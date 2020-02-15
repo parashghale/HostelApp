@@ -6,32 +6,27 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="8dp"
-    android:background="#5698EC"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/username"
         android:hint="Username"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/password"
         android:hint="Password"
-        android:textColor="#ffffff"
-        android:textColorHint="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btnLogin"
         android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/btnSignup"
-        android:text="create new user"
+        android:text="Signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
